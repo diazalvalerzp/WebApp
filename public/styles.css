@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    overflow: hidden;
+    height: 100%;
+    top: 0;
+    background-size: cover;
+    background: linear-gradient(170deg, #BBEBFB 11.95%, #0F0068 87.04%) fixed;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.dark-mode {
+    background: white;
+    color: black;
+}

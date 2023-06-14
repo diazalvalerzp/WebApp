@@ -1,0 +1,71 @@
+.header {
+    height: 13vw;
+    display: flex;
+    align-items: center;
+    margin: 2vw 1.5vw 0 1.5vw;
+    background: rgba(80, 90, 160, 0.2);
+    border-radius: 20px;
+}
+
+.logoContainer {
+    position: relative;
+    width: 25vw;
+    height: 13vw;
+    margin: 0 2vw 0 2vw;
+    top: -2vw;
+}
+
+.logoIMG {
+    position: absolute;
+    width: 26vw;
+    height: auto;
+}
+
+.navigation {
+    position: relative;
+}
+
+.navigationItem {
+    position: absolute;
+    top: -14vw;
+    width: 38vw;
+    height: 12vw;
+    background: #98BCDD;
+    border-radius: 29px;
+    transform: matrix(0.87, -0.5, 0.87, 0.5, 0, 0);
+}
+
+.navigationText {
+    position: absolute;
+    font-family: "Azonix", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 25px;
+    top: -1vw;
+    width: 15vw;
+    text-align: center;
+    text-decoration: none;
+    left: 0;
+}
+
+.navigationText:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.itemOne {
+}
+
+.itemTwo {
+    left: 24vw;
+}
+
+.itemThree {
+    left: 48vw;
+}
+
+.fadeOne {
+    top: -13vw;
+    background: rgba(152, 188, 221, 0.6);
+}

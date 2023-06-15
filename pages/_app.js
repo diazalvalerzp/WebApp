@@ -9,7 +9,9 @@ export default function MyApp ({ Component, pageProps }){
         <Layout>
             <Header/>
             <Switch></Switch>
-            <Component {...pageProps} />
+            <div className={styles.content}>
+                <Component {...pageProps} />
+            </div>
         </Layout>
     );
 };

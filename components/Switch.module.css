@@ -1,6 +1,7 @@
 .switchContainer {
+    box-sizing: border-box;
     margin: 1vw 0 1vw 0;
-    max-width: 98vw;
+    max-width: 97vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;

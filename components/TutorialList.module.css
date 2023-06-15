@@ -1,0 +1,63 @@
+.player-container {
+    width: 100%;
+    position: relative;
+}
+
+.player-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 2vw auto 3vw auto;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-auto-rows: minmax(auto, max-content);
+    gap: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    background: rgba(160, 160, 140, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.card h2 {
+    word-wrap: break-word;
+}
+
+.card p {
+    word-wrap: break-word;
+    font-family: "Arial", sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+
+.react-player-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.react-player-wrapper .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
